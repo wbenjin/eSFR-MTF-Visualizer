@@ -27,7 +27,6 @@ MATLAB GUI for measuring and visualising MTF sharpness across the full frame of 
 |---|---|
 | MATLAB | R2021a or later |
 | Image Processing Toolbox | any recent version |
-| Camera Support Package for Nikon | any recent version |
 
 ## Quick start
 
