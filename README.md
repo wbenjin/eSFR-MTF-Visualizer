@@ -70,4 +70,4 @@ To adapt for a different sensor, update `PIXEL_PITCH_UM` and the header comment.
 
 ## License
 
-MIT
+GPL v3
