@@ -117,7 +117,7 @@ yLim = ([1 H] - H / 2) * pitch_mm;
 %% 7 ── Scattered interpolation onto regular grid ─────────────────────────
 [Xg, Yg] = meshgrid(linspace(xLim(1), xLim(2), 240), ...
                     linspace(yLim(1), yLim(2), 180));
-Finterp = scatteredInterpolant(cx, cy, mtfLpMm, 'natural', 'linear');
+Finterp = scatteredInterpolant(cx, cy, mtfLpMm, 'natural', 'none');
 Mg      = Finterp(Xg, Yg);
 
 %% 8 ── Unified GUI ────────────────────────────────────────────────────────
